@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disaster Alert Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChObnxCGEZZEShZY7VJIJo-B_6MMLe-AU&libraries=places&callback=initMap" async defer></script>
+</head>
+<body>
+    <header>
+        <h1>Disaster Alert Dashboard</h1>
+    </header>
+
+    <div class="search-container">
+        <button id="search-btn" onclick="findNearbyPlaces('hospital')" >Hospitals Near Me !!!</button>
+        <button id="search-btn" onclick="findNearbyPlaces('police')">Find Police Stations Near Me</button>
+    </div>
+
+    <div class="dashboard-container">
+        <!-- Alerts Section -->
+        <div class="alerts-column">
+            <h2>Recent Alerts</h2>
+            <h4>Data from USGS | Updated every 5 minutes</h3>
+            <div id="alerts-container">
+                <!-- Alerts will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-column">
+            <div id="map">
+                <div id="map-frame" style="width: 1000px; height: 450px;"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
