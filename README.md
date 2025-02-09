@@ -27,6 +27,7 @@ open index.html   # macOS
 ## 📌 Usage
 
 Open the DisasterAlert website.
+Give the location access.
 View real-time disaster updates and safety recommendations.
 Search for nearby help centers by clicking the Search button.
 Click on the help centers to navigate to them.
@@ -36,3 +37,6 @@ Click on the help centers to navigate to them.
 This project is licensed under the MIT License.  
 
 ## 🔗 Live Demo
+https://kartikey060105.github.io/DisasterAlert/
+
+## 🚀 Stay safe and informed with DisasterAlert! 🌍⚠️
