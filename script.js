@@ -1,4 +1,4 @@
-// earthquake data //
+//********** disaster data api ********************//
 
 async function fetchEarthquakeData() {
     const apiUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson";
@@ -38,7 +38,7 @@ fetchEarthquakeData();
 setInterval(fetchEarthquakeData, 300000);
 
 
-// Google map api //
+//*******************  Google map api  ********************//
 let map, service, userLocation;
 
 function initMap() {
